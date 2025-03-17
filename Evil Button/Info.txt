@@ -1,3 +1,5 @@
-The schoolhouse doesn't spawn which makes sense cuz It's not like I can spawn rooms
-Searchlights doesn't spawn baldi which will maybe be fixed cuz I'm lazy
-Baldi spawns when you pick up the crystal
+The Schoolhouse doesn’t spawn, BECAUSE THIS IS CLIENT SIDED
+
+Searchlights don't spawn Baldi either because I haven’t fixed it yet (might do it later if I stop being lazy).
+
+However, Baldi does spawn when you pick up the crystal, so at least that part works
