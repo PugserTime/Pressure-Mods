@@ -2,7 +2,7 @@ If you want the prompt to display a quantity like `x2` or a price like `$10`, yo
 
 ### **How to Set It Up**  
 In the prompt configuration, include:  
-```lua
+```luau
 Model = TheModelHoldingThePrompt
 ```
 This model should have attributes for the values you want to display:  
