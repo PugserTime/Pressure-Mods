@@ -1,4 +1,3 @@
--- Wait for the PlayerGui to load
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local CollectionService = game:GetService("CollectionService")
 local Player = game:GetService("Players").LocalPlayer
@@ -11,9 +10,6 @@ local LocalEntitiesModule = require(MainClient:WaitForChild("LocalEntities"))
 local BaldiModule = require(PlayerGui.Main.Client.MainClient.Baldi)
 local SpecialLocalEffects = require(PlayerGui.Main.Client.MainClient.SpecialLocalEffects)
 
----------------------------------------------------------
--- Patch Function: Force IsEvilMode to true in PathFindToPlayer
----------------------------------------------------------
 local patched = false
 local function patchEvilModePandemonium()
 	if patched then return end
@@ -78,11 +74,7 @@ local function PandemoniumStop() -- I don't even know if this works :)
 	end)
 end
 
----------------------------------------------------------
--- End Patch Function
----------------------------------------------------------
 
--- Function to send subtitles
 local function SendSubtitle(message, duration)
 	duration = duration or 3
 	SubtitleModule.new(message, duration):Show()
